@@ -1,0 +1,52 @@
+nav {
+    font-family: 'Raleway';
+    font-weight: 500;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+    >div {
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;  
+        >a{
+            &:hover{
+                color: #AF0303;
+            }
+        }
+    }
+}
+
+.phone-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background-color:  #AF0303;
+    border: 1px solid white;
+    border-radius: 5px;
+    >img {
+        width: 20px;
+        height: 20;
+        margin: 0 5px 0 0;
+    }
+    &:hover {
+        background-color: #d64242;  
+    }
+}
+    
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+

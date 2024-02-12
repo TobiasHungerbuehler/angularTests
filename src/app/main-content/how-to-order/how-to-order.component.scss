@@ -1,0 +1,33 @@
+h2 {
+    font-family: 'economica';
+    color: #AF0303;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'economica';
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.howto_wrapper { 
+    margin: 25px 0 50px 0;
+    display: flex;
+    justify-content: space-around;
+    >.order_disc {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;    
+        >img {
+            width: 80px;
+            height: auto;
+        }       
+    }
+}
+

@@ -1,0 +1,26 @@
+.linkbar {
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkbar img {
+    height: 70px;
+    width: auto;
+}
+
+.socialm img {
+    margin: 0 0 0 40px;     
+}
+
+.footer-imp { 
+    display: flex; 
+    justify-content: center;    
+}
+
+.footer-imp a {
+    text-decoration: none;
+    margin: 30px 20px 30px 0;
+    font-size: 18px;
+    color: grey;
+}

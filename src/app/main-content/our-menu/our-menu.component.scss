@@ -1,0 +1,58 @@
+#ourmenu {  
+    background-image: url('./../../../assets/img/background.jpg');
+    background-position: center center;
+    background-size: cover;  
+}
+
+h2 {
+    padding-top: 64px;
+    font-family: 'economica';
+    color: #AF0303;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'economica';
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+ 
+.menucard, .menucard_rev {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 80px 0;   
+}
+
+.menucard:last-child{
+    margin: 0 0 0 0;
+    padding-bottom: 90px;
+}
+
+.menucard_rev{
+    flex-direction: row-reverse;
+}
+
+.menucard img, .menucard_rev img {
+    width: 240px;
+    height: 240px;
+    margin-right: 50px;
+}
+
+#ourmenu .menucard table td, .menucard_rev table td {
+    font-family: 'Raleway';
+    color: grey;
+    font-size: 30px;
+}
+
+.dish table {
+    width: 350px;     
+}
+
+.menucard h3, .menucard_rev h3 {
+    text-transform: none;
+    margin: 0 0 20px 0 ; 
+    font-size: 50px;   
+}
